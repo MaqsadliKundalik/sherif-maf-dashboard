@@ -75,9 +75,8 @@ DATABASES = {
         'HOST': os.environ.get('DB_HOST', '1ee1e75ce6c812673a1b7a7a.twc1.net'),
         'PORT': os.environ.get('DB_PORT', '5432'),
         'OPTIONS': {
-            'sslmode': _sslmode,
-            'sslrootcert': _sslrootcert,
-        },
+            'sslmode': 'disable'
+        }
     }
 }
 
