@@ -72,7 +72,7 @@ DATABASES = {
         'NAME': os.environ.get('DB_NAME', 'mafia_db'),
         'USER': os.environ.get('DB_USER', 'gen_user'),
         'PASSWORD': os.environ.get('DB_PASSWORD', 'Odi@1234'),
-        'HOST': os.environ.get('DB_HOST', '1ee1e75ce6c812673a1b7a7a.twc1.net'),
+        'HOST': os.environ.get('89.23.97.148'),
         'PORT': os.environ.get('DB_PORT', '5432'),
 'OPTIONS': {
     'sslmode': 'require',
