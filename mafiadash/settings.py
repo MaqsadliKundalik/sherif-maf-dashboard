@@ -74,9 +74,10 @@ DATABASES = {
         'PASSWORD': os.environ.get('DB_PASSWORD', 'Odi@1234'),
         'HOST': os.environ.get('DB_HOST', '1ee1e75ce6c812673a1b7a7a.twc1.net'),
         'PORT': os.environ.get('DB_PORT', '5432'),
-        'OPTIONS': {
-            'sslmode': 'disable'
-        }
+'OPTIONS': {
+    'sslmode': 'require',
+    'sslrootcert': 'disable'  # sertifikatni tekshirmaslik
+}
     }
 }
 
