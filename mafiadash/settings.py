@@ -72,12 +72,12 @@ DATABASES = {
         'NAME': os.environ.get('DB_NAME', 'mafia_db'),
         'USER': os.environ.get('DB_USER', 'postgres'),
         'PASSWORD': os.environ.get('DB_PASSWORD', 'admin'),
-        'HOST': os.environ.get('DB_HOST', '82.21.150.143'),
+        'HOST': '82.21.150.143',
         'PORT': os.environ.get('DB_PORT', '5432'),
-'OPTIONS': {
-    'sslmode': 'require',
-    'sslrootcert': 'disable'  # sertifikatni tekshirmaslik
-}
+        'OPTIONS': {
+            'sslmode': 'require',
+            'sslrootcert': 'disable'  # sertifikatni tekshirmaslik
+        }
     }
 }
 
